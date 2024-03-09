@@ -66,14 +66,13 @@ img {
 
 .header-container {
     display: flex;
-    padding: 24px 0 0 0;
+    align-items: center;
 }
 
 .container {
     max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .header-logo {
@@ -142,6 +141,7 @@ img {
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .header-contact-list {

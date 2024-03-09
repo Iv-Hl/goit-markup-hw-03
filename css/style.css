@@ -262,8 +262,8 @@ img {
 
 .team {
     background-color: #F4F4FD;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -281,10 +281,19 @@ img {
     display: flex;
     flex-direction: row;
     gap: 24px;
+
 }
 
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
 }
 
 .team-images {
@@ -392,6 +401,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -411,7 +422,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
 }
 
 .footer-container {
